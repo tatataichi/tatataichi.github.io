@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-image{
+  vertical-align : center;
+}
+
+top{
+  background-image : url("top-backgroundimage.jpg")
+  background-size : cover;
+  color : white;
+}
+
+.top-sentence{
+  vertical-align : center;
+  float : left;
+}
+
+top p{
+  float : right;
+  font-family : 'Yasashii-Bold', sans-serif;
+}
+
+contents p{
+  text-align : center;
+}
+
+.twitter {
+  background-color : #55acee;
+}
+
+.facebook {
+  background-color : #3b5998;
+}
+
+.instagram{
+  background-color : #E1306C;
+}
+
+.btn {
+  padding : 8px 24px;
+  color : white;
+  display : inline-block;
+  opacity : 0.8;
+  border-radius : 4px;
+  text-align : center;
+}
+
+.footer-name{
+  width : 80px;
+  border-bottom : solid 1px black;
+}
